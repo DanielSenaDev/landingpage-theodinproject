@@ -16,6 +16,13 @@ body{
     text-align: center;
 }
 
+.section {
+  min-height: 100vh;
+  display: flex;
+  
+  align-items: center;
+}
+
  .section-1, .section-2, .section-3, section-4{
     padding: 20px 150px 20px 150px;
 }
@@ -35,6 +42,10 @@ header{
     align-items: center;
     padding: 30px 30px 10px 30px;
 
+}
+
+.menu-spacing{
+  height: 68px;
 }
 
 
